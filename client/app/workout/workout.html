@@ -1,0 +1,17 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<div class="col-md-12">
+    <h1>{{workout.name}}</h1>
+    <h2>{{workout.info}}</h2>
+
+    <ul>List of Exercises :</ul>
+    <ul ng-repeat="ex in workout.exList">
+        <a href="{{path}}/{{ex.name}}"><li>{{ex.name}}</li></a>
+    </ul>
+</div>
+<!--<ul ng-repeat="item in exList"  >-->
+    <!--<li>{{item.name}}</li>-->
+    <!--<li>Sets : <input type="text" placeholder="{{item.sets}}"/></li>/>-->
+    <!--<li>Reps - {{item.reps}}</li>-->
+    <!--<li>Weight -{{item.weight}}</li>-->
+<!--</ul>-->

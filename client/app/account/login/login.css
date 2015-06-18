@@ -1,0 +1,79 @@
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  background: #361360; /* Old browsers */
+  background: -moz-linear-gradient(top,  #670670 0%, #1f1b6b 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#361360), color-stop(100%,#1f1b6b)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #670670 0%,#1f1b6b 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #670670 0%,#1f1b6b 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #670670 0%,#1f1b6b 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #670670 0%,#1f1b6b 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#450D78', endColorstr='#1f1b6b',GradientType=0 ); /* IE6-9 */
+  min-height: 100%;
+}
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: transparent;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  color: #FFF;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: 15px;
+
+}
+.form-signin input[type="password"] {
+  margin-bottom: 25px;
+}
+
+.form-signin .btn {
+  border: 3px solid #FFF;
+  color: #FFF;
+  background-color: transparent;
+}
+.form-signin .btn:hover {
+  background-color: rgba(0,0,0,0.25);
+}
+
+.liftlog-logo {
+  display: block;
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  background-color: #FFF;
+  margin: 40px auto 60px;
+  padding: 1px 24px;
+}
+.liftlog-logo h1{
+  display: block;
+  font-size: 1.85em;
+  font-weight: 700;
+  line-height: 0.85em;
+  text-align: left;
+  color: #670670;
+}
+
